@@ -54,6 +54,7 @@ const currency = ref('rub')
 const period = ref('monthly')
 const total = ref(null)
 const discount = ref(null)
+
 const exchangeRates = ref({
   rub: 1,
   cny: 1,
